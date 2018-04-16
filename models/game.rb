@@ -1,6 +1,6 @@
 class Game
 
-  def play(player1, player2)
+  def self.play(player1, player2)
     if player1 == player2
       return "draw"
     elsif (player1 == "rock" && player2 == "scissors") || (player1 == "scissors" && player2 == "rock")
